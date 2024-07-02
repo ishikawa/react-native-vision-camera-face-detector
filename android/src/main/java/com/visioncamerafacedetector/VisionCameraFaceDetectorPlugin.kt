@@ -235,9 +235,9 @@ class VisionCameraFaceDetectorPlugin(
   ): Int {
     return when (orientation) {
       Orientation.PORTRAIT -> 0
-      Orientation.LANDSCAPE_LEFT -> 90
+      Orientation.LANDSCAPE_LEFT -> 270
       Orientation.PORTRAIT_UPSIDE_DOWN -> 180
-      Orientation.LANDSCAPE_RIGHT -> 270
+      Orientation.LANDSCAPE_RIGHT -> 90
     }
   }
 
